@@ -31,7 +31,7 @@ module.exports = function MinimalLogger( options ) {
 	return new ProgressPlugin( ( progress, message, moduleProgress, activeModules, moduleName ) => {
 
 		// Progress
-		logLine = chalk.yellow( `[${ Math.round( progress * 100 ) }%] ` );
+		let logLine = chalk.yellow( `[${ Math.round( progress * 100 ) }%] ` );
 
 		// Reset process variables for this run
 		if ( previousStep === 0 ) {
