@@ -22,8 +22,8 @@ module.exports = function MinimalLogger( options ) {
 	let previousStep = 0;
 
 	// Initial log
-	let logLine = 'Webpack: Starting ...';
-	log( logLine );
+	// let logLine = 'Webpack: Starting ...';
+	// log( logLine );
 
 	/**
 	 * Use the webpack-internal progress plugin as the base of the logger
