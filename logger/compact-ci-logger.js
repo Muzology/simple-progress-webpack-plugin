@@ -22,7 +22,7 @@ module.exports = function CompactCILogger( options ) {
     let previousStep = 0;
 
     // Initial log
-    console.log( chalk.white( 'Webpack: Starting ...' ) );
+    // console.log( chalk.white( 'Webpack: Starting ...' ) );
 
     /**
      * Use the webpack-internal progress plugin as the base of the logger
