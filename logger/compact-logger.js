@@ -25,7 +25,6 @@ module.exports = function CompactLogger( options ) {
 	// Initial log
 	let logLines = [];
 	// log( 'Webpack: Starting ...' );
-	log('compact logger created');
 
 	/**
 	 * Use the webpack-internal progress plugin as the base of the logger
